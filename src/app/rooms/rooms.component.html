@@ -1,1 +1,10 @@
-<p>rooms works!</p>
+<div [hidden]="hidden">
+  <!-- Interpolation binding  -->
+  <p>{{ name }}</p>
+
+  <!-- Property binding -->
+  <h1 [innerText]="name"></h1>
+</div>
+
+<!-- Event binding -->
+<button (click)="hide()">click</button>
