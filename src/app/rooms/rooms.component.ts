@@ -21,6 +21,8 @@ export class RoomsComponent implements OnInit {
     { price: 1500, roomType: 'no ac', roomNumber: 1 },
     { price: 2500, roomType: 'no ac', roomNumber: 2 },
     { price: 5000, roomType: ' ac', roomNumber: 3 },
+    { price: 5000, roomType: ' ac', roomNumber: 4 },
+    { price: 5000, roomType: ' ac', roomNumber: 5 },
   ];
 
   constructor() {}
